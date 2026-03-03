@@ -1753,6 +1753,7 @@ LEVEL_PATTERNS = [
 SKIP_LINES = {"D", "i", "Stage", "rState Common Entrance Test Cell"}
 
 
+
 # =====================================================
 # CORE FUNCTION (REUSED)
 # =====================================================
@@ -1883,6 +1884,7 @@ def extract_pdf_to_csv_bytes(pdf_bytes):
                                     perc,
                                 ])
                         break
+                    
 
     # -------- WRITE CSV IN MEMORY --------
     csv_buffer = io.StringIO()
